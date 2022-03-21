@@ -83,7 +83,7 @@ export default class SortingVisualizer extends React.Component {
       const arrayBars = document.getElementsByClassName("array-bar");
       const isChange = i % 3 !== 2;
       if (isChange) {
-        const [firstidx, secondidx, firsth, secondh] = animations[i];
+        const [firstidx, secondidx] = animations[i];
         let color1;
         let color2;
         if (i % 3 === 0) {
@@ -115,7 +115,7 @@ export default class SortingVisualizer extends React.Component {
       const arrayBars = document.getElementsByClassName("array-bar");
       const isChange = i % 3 !== 2;
       if (isChange) {
-        const [firstidx, secondidx, firsth, secondh] = animations[i];
+        const [firstidx, secondidx] = animations[i];
         let color1;
         let color2;
         if (i % 3 === 0) {
@@ -148,7 +148,7 @@ export default class SortingVisualizer extends React.Component {
       const arrayBars = document.getElementsByClassName("array-bar");
       const isChange = i % 3 !== 2;
       if (isChange) {
-        const [firstidx, secondidx, firsth, secondh] = animations[i];
+        const [firstidx, secondidx] = animations[i];
         let color1;
         let color2;
         if (i % 3 === 0) {
@@ -180,7 +180,7 @@ export default class SortingVisualizer extends React.Component {
       const arrayBars = document.getElementsByClassName("array-bar");
       const isChange = i % 3 !== 2;
       if (isChange) {
-        const [firstidx, secondidx, firsth, secondh] = animations[i];
+        const [firstidx, secondidx] = animations[i];
         let color1;
         let color2;
         if (i % 3 === 0) {
@@ -212,7 +212,7 @@ export default class SortingVisualizer extends React.Component {
       const arrayBars = document.getElementsByClassName("array-bar");
       const isChange = i % 3 !== 2;
       if (isChange) {
-        const [firstidx, secondidx, firsth, secondh] = animations[i];
+        const [firstidx, secondidx] = animations[i];
         let color1;
         let color2;
         if (i % 3 === 0) {
