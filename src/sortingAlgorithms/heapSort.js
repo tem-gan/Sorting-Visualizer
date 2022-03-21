@@ -34,7 +34,7 @@ function heapify(arr = [], n, i) {
   if (r < n && arr[r] > arr[largest]) largest = r;
 
   // If largest is not root
-  if (largest != i) {
+  if (largest !== i) {
     swap(arr, largest, i);
     // Recursively heapify the affected sub-tree
     heapify(arr, n, largest);
