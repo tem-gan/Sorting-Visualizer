@@ -3,3 +3,5 @@ React application for sorting algorithms(insertion sort, selection sort, quick s
 
 deployment url:
 https://tem-gan.github.io/Sorting-Visualizer/
+
+source code in master branch
